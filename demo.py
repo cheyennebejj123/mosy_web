@@ -15,15 +15,15 @@ ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "demo_data"
 
 MODEL_LABELS = {
-    "yolov9c": "YOLOv9-C",
+    "yolov9c": "YOLOv9c (Best Performance)",
 }
 
 VIDEO_LABELS = {
-    "warehouse_1080p": "Warehouse 1080p",
-    "warehouse_852p":  "Warehouse 852p",
-    "warehouse_450p":  "Warehouse 450p",
-    "youtube_4":       "Warehouse Video 4",
-    "youtube_5":       "Warehouse Video 5",
+    "warehouse_1080p": "Test Video 1",
+    "warehouse_852p":  "Test Video 2",
+    "warehouse_450p":  "Test Video 3",
+    "youtube_4":       "Test Video 4",
+    "youtube_5":       "Test Video 5",
 }
 
 ZONE_LABELS = [
