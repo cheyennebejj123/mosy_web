@@ -15,18 +15,15 @@ ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "demo_data"
 
 MODEL_LABELS = {
-    "yolov8m_baseline": "YOLOv8m — Exp2 (rats only)",
-    "yolov8m_human":    "YOLOv8m — Exp4 (+human class)",
-    "yolov8m_merged":   "YOLOv8m — Exp6 (+rodent_extra)",
-    "rtdetr_l":         "RT-DETR-L",
-    "yolov9c":          "YOLOv9-C",
-    "yolov10m":         "YOLOv10-M",
+    "yolov9c": "YOLOv9-C",
 }
 
 VIDEO_LABELS = {
     "warehouse_1080p": "Warehouse 1080p",
     "warehouse_852p":  "Warehouse 852p",
     "warehouse_450p":  "Warehouse 450p",
+    "youtube_4":       "Warehouse Video 4",
+    "youtube_5":       "Warehouse Video 5",
 }
 
 ZONE_LABELS = [
