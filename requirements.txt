@@ -1,5 +1,0 @@
-roboflow>=1.2.0
-python-dotenv>=1.0.0
-ultralytics>=8.1.0,<8.4
-torch>=2.0.0
-torchvision>=0.15.0
