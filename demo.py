@@ -20,8 +20,8 @@ MODEL_LABELS = {
 
 VIDEO_LABELS = {
     "warehouse_1080p": "Test Video 1",
-    "warehouse_852p":  "Test Video 2",
-    "warehouse_450p":  "Test Video 3",
+    "warehouse_852p":  "Test Video 3",
+    "warehouse_450p":  "Test Video 2",
     "youtube_4":       "Test Video 4",
     "youtube_5":       "Test Video 5",
 }
